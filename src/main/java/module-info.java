@@ -10,4 +10,5 @@ module sample {
     opens sample.Övn12_BMISceneBuilder;
     opens sample.JavaFxListDemo;
     opens sample.JavaFxBMICalculatorMVC;
+    opens sample.BMI_MVC_LiveKodning;
 }

@@ -20,7 +20,7 @@ public class HBoxDemo extends Application {
 
             @Override
             public void handle(ActionEvent actionEvent) {
-                System.out.println("Hello World!)");
+                System.out.println("Hello World!");
             }
         });
 
@@ -28,8 +28,8 @@ public class HBoxDemo extends Application {
         btn2.setText("another button");
 
         HBox root = new HBox();
-        root.setPadding(new Insets(10));
-        root.setSpacing(8);
+        root.setPadding(new Insets(10, 20, 10 , 20));
+        root.setSpacing(50);
 
         root.getChildren().add(btn);
         root.getChildren().add(btn2);

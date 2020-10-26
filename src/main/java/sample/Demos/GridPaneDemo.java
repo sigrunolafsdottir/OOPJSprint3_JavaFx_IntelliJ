@@ -19,7 +19,7 @@ public class GridPaneDemo extends Application {
 
             @Override
             public void handle(ActionEvent actionEvent) {
-                System.out.println("Hello World!)");
+                System.out.println("Hello World!");
             }
         });
 
@@ -35,7 +35,7 @@ public class GridPaneDemo extends Application {
         root.add(btn, 0, 0);
         root.add(btn2, 0,1);
         root.add(btn3, 1, 0);
-        root.add(btn4, 1, 1);
+        root.add(btn4, 3, 3);
         Scene scene = new Scene(root, 300, 250);
         stage.setTitle("Hello World");
         stage.setScene(scene);

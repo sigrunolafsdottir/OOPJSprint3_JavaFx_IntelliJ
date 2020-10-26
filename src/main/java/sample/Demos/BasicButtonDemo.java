@@ -15,10 +15,9 @@ public class BasicButtonDemo extends Application {
         Button btn = new Button();
         btn.setText("say Hello World");
         btn.setOnAction(new EventHandler<ActionEvent>(){
-
             @Override
             public void handle(ActionEvent actionEvent) {
-                System.out.println("Hello World!)");
+                System.out.println("Hello World!");
             }
         });
         StackPane root = new StackPane();
