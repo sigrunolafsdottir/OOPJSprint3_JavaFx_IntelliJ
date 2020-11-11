@@ -23,22 +23,6 @@ public class Controller {
     public TextField weight;
     public TextField bmi;
 
-    @FXML
-    private ImageView myImage;
-    private static int counter = 0;
-
-    @FXML
-    public void mc(MouseEvent event){
-        System.out.println("in mouseclicked");
-        if (counter %2 == 0){
-                myImage.setImage(new Image("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/kitten-playing-with-toy-mouse-royalty-free-image-590055188-1542816918.jpg?crop=1.00xw:0.758xh;0,0.132xh&resize=980:*"));
-          }else{
-            myImage.setImage(new Image("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/kitten-with-his-paw-up-royalty-free-image-149052633-1542816516.jpg?crop=1xw:1xh;center,top&resize=980:*"));
-        }
-        counter++;
-    }
-
-
 
 
 
