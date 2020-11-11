@@ -34,6 +34,7 @@ public class RegistrationFormB extends Application {
       TextField textField1 = new TextField();   
       TextField textField2 = new TextField();
       TextField textField3 = new TextField();
+      textField3.setPrefColumnCount(40);
       
       Button button1 = new Button("Submit"); 
       Button button2 = new Button("Clear");
