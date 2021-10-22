@@ -5,9 +5,9 @@ module sample {
     requires kotlin.stdlib;
 
     opens sample.Demos;
-    opens sample.Övn9_BMICalculator;
-    opens sample.Övn11_Formulär;
-    opens sample.Övn12_BMISceneBuilder;
+    opens sample.Ovn9_BMICalculator;
+    opens sample.Ovn11_Formular;
+    opens sample.Ovn12_BMISceneBuilder;
     opens sample.JavaFxListDemo;
     opens sample.JavaFxBMICalculatorMVC;
     opens sample.BMI_MVC_LiveKodning;

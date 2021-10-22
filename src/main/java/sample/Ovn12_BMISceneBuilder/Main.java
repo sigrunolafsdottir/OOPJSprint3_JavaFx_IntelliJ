@@ -1,4 +1,4 @@
-package sample.Övn12_BMISceneBuilder;
+package sample.Ovn12_BMISceneBuilder;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

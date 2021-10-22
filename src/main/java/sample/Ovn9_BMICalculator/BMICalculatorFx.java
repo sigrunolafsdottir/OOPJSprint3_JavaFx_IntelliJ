@@ -1,4 +1,4 @@
-package sample.Övn9_BMICalculator;
+package sample.Ovn9_BMICalculator;
 
 
 import java.util.Scanner;
